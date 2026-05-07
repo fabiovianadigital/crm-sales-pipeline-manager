@@ -3,7 +3,7 @@
 # 📸 Project Preview
 
 ## Dashboard
-![Dashboard](images/crm-dashboard.png)
+crm-sales-pipeline-manager/images/
 
 ## Sales Pipeline
 ![Pipeline](images/sales-pipeline.png)
