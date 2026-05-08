@@ -1,15 +1,39 @@
-# Documentação do CRM Sales Pipeline Manager
+# CRM Sales Pipeline Manager
 
-## Objetivo
-Projeto demonstrativo de CRM e gestão comercial com foco em organização operacional, pipeline de vendas, follow-up e indicadores estratégicos.
+Sistema demonstrativo de CRM e gestão comercial com foco em organização operacional, pipeline de vendas, follow-up e indicadores estratégicos.
 
-## Estrutura Inicial
+---
+
+## Objetivos do Projeto
+
 - Gestão de Leads
 - Pipeline Comercial
-- Dashboard de Indicadores
 - Controle de Follow-up
+- Indicadores Comerciais
+- Dashboard Operacional
 - Histórico de Atendimento
 - Gestão de Oportunidades
 
-## Objetivo de Negócio
-Melhorar organização comercial, produtividade operacional e acompanhamento de clientes. 
+---
+
+## Funcionalidades
+
+✔ Cadastro de clientes  
+✔ Gestão comercial  
+✔ Pipeline de vendas  
+✔ Dashboard de indicadores  
+✔ Controle operacional  
+✔ Follow-up de atendimento  
+✔ Organização comercial  
+
+---
+
+## Estrutura do Projeto
+
+```bash
+docs/
+images/
+database/
+api/
+dashboard/
+mockups/
