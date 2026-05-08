@@ -1,24 +1,11 @@
-CREATE TABLE clients (
+-- Estrutura inicial do banco CRM
+
+CREATE TABLE clientes (
     id INT PRIMARY KEY AUTO_INCREMENT,
-    name VARCHAR(255),
+    nome VARCHAR(255),
+    telefone VARCHAR(20),
     email VARCHAR(255),
-    phone VARCHAR(50),
-    company VARCHAR(255),
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
-
-CREATE TABLE leads (
-    id INT PRIMARY KEY AUTO_INCREMENT,
-    client_id INT,
+    empresa VARCHAR(255),
     status VARCHAR(100),
-    source VARCHAR(100),
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
-
-CREATE TABLE followups (
-    id INT PRIMARY KEY AUTO_INCREMENT,
-    lead_id INT,
-    notes TEXT,
-    next_contact DATE,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
