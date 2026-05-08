@@ -37,3 +37,8 @@ database/
 api/
 dashboard/
 mockups/
+
+
+## Status do Projeto
+
+🚧 Em evolução contínua.
